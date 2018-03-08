@@ -9,7 +9,45 @@
     <script src="main.js"></script>
 </head>
 <body>
-<header>Week 4 game</header>
-    
+<div class="instructions">
+    <h1>Mike Tyson's Random Number Challenge</h1>
+    <h3>Here's how to play</h3>
+    </br>
+    <ol>
+        <p>You will have to help Mike Tyson add up to the random number given to you at the start of the game.<span>"Number To Get"</span></p>
+        <p>There are four different colored punching bags below: Blue, Green, Red and Yellow.</p>
+        <p>By clicking on a punching bag, you will add a specific amount of points to the total number you and Mike need to reach.</p>
+        <p>In order to win, you must help Mike match the total score to the random number by clicking on the different punching bags.</p>
+        <p>If you fail to help Mike, then you lose the game, this occurs when your total score goes over the target random number.</p>
+        <p>The amount of points each punching bag adds is hidden from you until you click upon one.</p>
+        <p>Every time one game ends, a new game will start, where the values of each punching bag is changed as well as the random number you need to reach.</p>
+    </ol>
+</div>
+<div class="numberToMatch">
+    <h2>Number To Get:
+        <span id= "randomNumber"></span>
+    </h2>
+</div>
+<div class="winsAndLosses">
+    <h2>Wins:
+        <span id= "numberWins"></span>
+        </br>
+        Losses: 
+        <span id= "numberLosses"></span>
+    </h2>
+</div>
+<div class="gloves">
+    <img src="Assets/Images/blue.png" class=glovesImage id="one" alt="Blue Gloves">
+    <img src="Assets/Images/green.png" class=glovesImage id="two" alt="Green Gloves">
+    <img src="Assets/Images/red.png" class=glovesImage id= "three" alt="Red Gloves">
+    <img src="Assets/Images/yellow.png" class=glovesImage id= "four" alt="Yellow Gloves">
+</div>
+<div class="userTotal">
+    <h2>Your total score is:
+        <span id="finalTotal"></span>
+    </h2>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script></p>
 </body>
 </html>
