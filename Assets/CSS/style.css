@@ -1,44 +1,46 @@
 body{
-	background-image: url("../images/background.png")
+background: black;
 }
 div{
-	background-color: white;
-	margin: 10px;
-	width: 25%
+background-color: grey;
+margin: 5px;
+width: 25%
 }
 div{
-	border: solid 2px antiquewhite;
-	padding: 10px;
+border: solid 2px antiquewhite;
+padding: 5px;
 }
 h1, h3, span{
-	font-weight: bold;
-	text-align: center;
+font-weight: bold;
+text-align: center;
 }
 h1{
-	font-size: 30pt;
+font-size: 30pt;
 }
-ol{
-	list-style: decimal inside; 
-}
-div.header, div.gems{
-	background-color: #e0e0eb;
+div.header, div.gloves{
+background-color: grey;
 }
 div.header, div.instructions{
-	width: 50%;
+width: 50%;
 }
 .numberToMatch, .winsAndLosses{
-	float: left;
-	width: 15%;
-	height: 60px;
+width: 15%;
+height: 80px;
 }
 .userTotal{
-	width: 15%;
-	height: 60px;
+width: 15%;
+height: 80px;
 }
 .gloves{
-	clear: both;
+clear: both;
 }
 .glovesImage{
-	height: 50px;
-	margin: 5px;
+height: 50px;
+margin: 5px;
+}
+
+div.tyson {
+justify-content: center;
+padding: 0px;
+margin: 0px;
 }
