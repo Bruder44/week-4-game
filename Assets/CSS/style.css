@@ -7,7 +7,7 @@ margin: 5px;
 width: 25%
 }
 div{
-border: solid 2px antiquewhite;
+border: solid 2px red;
 padding: 5px;
 }
 h1, h3, span{
@@ -15,7 +15,7 @@ font-weight: bold;
 text-align: center;
 }
 h1{
-font-size: 30pt;
+font-size: 20pt;
 }
 div.header, div.gloves{
 background-color: grey;
